@@ -1,0 +1,63 @@
+{
+  "info" : {
+    "project" : "SureChoice",
+    "author" : "Joshua J. Daymude",
+    "license" : "MIT"
+  },
+  "plans" : [
+    {
+      "name" : "no insurance",
+      "short_name" : "none",
+      "description" : "all medical costs are out-of-pocket",
+      "premium" : 0,
+      "deductible" : 0,
+      "copay" : 1,
+      "max_oop" : "None"
+    },
+    {
+      "name" : "parent's coverage",
+      "short_name" : "parent",
+      "description" : "client < 26 years old, can waive insurance and stay on parent's coverage",
+      "premium" : 0,
+      "deductible" : 6500,
+      "copay" : 1,
+      "max_oop" : 10000
+    },
+    {
+      "name" : "health maintenance organization",
+      "short_name" : "hmo",
+      "description" : "restricts insurance coverage to in-network providers only, with few exceptions",
+      "premium" : 250,
+      "deductible" : 500,
+      "copay" : 0.3,
+      "max_oop" : 6700
+    },
+    {
+      "name" : "exclusive provider organization",
+      "short_name" : "epo",
+      "description" : "restricts insurance coverage to in-network providers only, but saves on some costs compared to a ppo",
+      "premium" : 210,
+      "deductible" : 500,
+      "copay" : 0.1,
+      "max_oop" : 5000
+    },
+    {
+      "name" : "preferred provider organization",
+      "short_name" : "ppo",
+      "description" : "emphasizes the ability to go to any doctor/specialist without referral, but is generally costly",
+      "premium" : 185,
+      "deductible" : 400,
+      "copay" : 0.2,
+      "max_oop" : 5000
+    },
+    {
+      "name" : "high deductible health plan",
+      "short_name" : "hdhp",
+      "description" : "emphasizes lower premiums and higher deductibles",
+      "premium" : 80,
+      "deductible" : 5200,
+      "copay" : 0,
+      "max_oop" : 5200
+    }
+  ]
+}
