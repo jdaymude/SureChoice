@@ -14,7 +14,9 @@ When using this code, it helps to understand a few key health insurance terms:
 - _premium_: a fixed monthly payment for being on a plan.
 - _deductible_: the total out-of-pocket amount to be paid before insurance covers anything.
 - _copay_: the percentage of a total cost to be paid out-of-pocket after the deductible is met.
-- _maximum out-of-pocket_: the maximum total out-of-pocket cost before insurance covers 100% of all subsequent payments.
+- _out-of-pocket maximum_: the maximum total out-of-pocket cost before insurance covers 100% of all subsequent payments.
+
+More background can be found in my [blog post](https://joshdaymude.wordpress.com/2019/06/30/surechoice/).
 
 
 ## Installation
