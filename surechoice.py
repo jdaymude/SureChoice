@@ -1,7 +1,12 @@
 # Project:     SureChoice
 # Filename:    surechoice.py
 # Authors:     Joshua J. Daymude (jdaymude@asu.edu)
-# Description: [TODO]
+# Description: Compares health insurance plans based on annual out-of-pocket
+#              cost to the client as a function of total medical costs.
+
+"""
+SureChoice: Make better informed decisions about health insurance.
+"""
 
 import argparse
 import json
@@ -10,9 +15,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 if __name__ == '__main__':
-    """
-    SureChoice: Make informed decisions about health insurance.
-    """
     # Parse arguments.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data', required=True, help='JSON file of plans data')
