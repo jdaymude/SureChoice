@@ -71,6 +71,6 @@ python3 surechoice.py --data <path to plans.json>
 Optionally, one can also use the `--max_annual_cost` variable to define the maximum total annual medical cost to consider. All options can be viewed with `python3 surechoice.py -h`.
 
 
-## Feedback & Contibutions
+## Feedback & Contributing
 
 SureChoice is a very minimal piece of software that could have many improvements (e.g., supporting Financial Savings Accounts). If you'd like to leave feedback, please post an [issue](https://github.com/jdaymude/SureChoice/issues). If you'd like to contribute, please submit your code via a [pull request](https://github.com/jdaymude/SureChoice/pulls).
